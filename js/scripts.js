@@ -187,20 +187,20 @@ $(document).ready(function () {
             title: "Abigail and Adrian's Wedding",
 
             // Event start date
-            start: new Date('Jan 02, 2021 15:00'),
+            start: new Date('Jan 02, 2022 15:00'),
 
             // Event duration (IN MINUTES)
             // duration: 120,
 
             // You can also choose to set an end time
             // If an end time is set, this will take precedence over duration
-            end: new Date('Jan 02, 2021 23:00'),
+            end: new Date('Jan 02, 2022 23:00'),
 
             // Event Address
             address: 'Creekside Farm, Rush City, Minnesota',
 
             // Event Description
-            description: "We can't wait to see you on our big day. For any queries or issues, please contact Abigail at (507)-369 4039 or Adrian at (952)-228-3787."
+            description: "We can't wait to see you on our big day. For any queries or issues, please email us at abbyadrian.wedding@gmail.com"
         }
     });
 
@@ -214,11 +214,10 @@ $(document).ready(function () {
 
         $('#alert-wrapper').html(alert_markup('info', '<strong>Just a sec!</strong> We are saving your details.'));
 
-        if (MD5($('#invite_code').val()) !== 'b0e53b10c1f55ede516b240036b88f40'
-            && MD5($('#invite_code').val()) !== '2ac7f43695eb0479d5846bb38eec59cc') {
+        if (MD5($('#invite_code').val()) !== 'c347d3c0fc4b168c71f3b542307f47dd') {
             $('#alert-wrapper').html(alert_markup('danger', '<strong>Sorry!</strong> Your invite code is incorrect.'));
         } else {
-            $.post('https://script.google.com/macros/s/AKfycbzUqz44wOat0DiGjRV1gUnRf4HRqlRARWggjvHKWvqniP7eVDG-/exec', data)
+            $.post('https://script.google.com/macros/s/AKfycbx4nZvCO4d7FKENTnQphFjoN1WHKWikcdX9wz84jKe-GGr3bOZ_NImCjYEbTwXnRZvy/exec', data)
                 .done(function (data) {
                     console.log(data);
                     if (data.result === "error") {
