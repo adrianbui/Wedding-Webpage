@@ -197,7 +197,7 @@ $(document).ready(function () {
             end: new Date('Jan 02, 2022 23:00'),
 
             // Event Address
-            address: 'Creekside Farm, Rush City, Minnesota',
+            address: '8555 Rushseba Trail, Rush City, MN 55069, USA',
 
             // Event Description
             description: "We can't wait to see you on our big day. For any queries or issues, please email us at abbyadrian.wedding@gmail.com"
