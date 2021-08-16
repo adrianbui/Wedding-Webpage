@@ -15,9 +15,9 @@
     "template",
     "website template"
   ],
-  "author": "Ram Patra",
+  "author": "Adrian Bui",
   "license": "GPL-3.0",
-  "homepage": "https://github.com/rampatra/wedding-website",
+  "homepage": "https://abigail-adrian.site",
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-rename": "^1.4.0",
