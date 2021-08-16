@@ -242,7 +242,7 @@ $(document).ready(function () {
 function initMap() {
     var creekside = {lat: 45.6902361, lng: -92.9358908};
     var map = new google.maps.Map(document.getElementById('map-canvas'), {
-        zoom: 15,
+        zoom: 12,
         center: creekside,
         scrollwheel: false
     });
