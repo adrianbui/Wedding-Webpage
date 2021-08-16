@@ -2,6 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
 @import url(https://fonts.googleapis.com/css?family=Merriweather:400,300,400italic,300italic,700,700italic);
 @import url(https://fonts.googleapis.com/css?family=Nunito:400,300,700);
+@import url('https://fonts.googleapis.com/css?family=Alex+Brush|Cookie|Great+Vibes|Norican|Parisienne|Petit+Formal+Script|Rochester&display=swap');
 // Imports
 //@import "compass";
 @import "partials/typography";
@@ -252,7 +253,7 @@ Hero
 ========================================================================== */
 .hero {
   min-height: 750px;
-  background: url('../img/hero.jpg') center center;
+  background: url('../img/hero.jpg') center 8%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -278,7 +279,7 @@ Hero
     margin-bottom: 80px;
   }
   .hero-content {
-    padding-top: 40%;
+    padding-top: 50%;
   }
   .hero-content img {
     width: 55%;
@@ -286,8 +287,8 @@ Hero
   }
   .hero-content h2 {
     color: #fff;
-    font-family: 'Brush Script MT', 'Freebooter', 'Yoquote Script', 'Alex Brush', serif;
-    font-size: 130px;
+    font-family: 'Alex Brush', 'Brush Script MT', serif; //'Brush Script MT'
+    font-size: 70px;
     text-shadow: 0 0 8px #000, 0 0 8px #000;
     text-align: center;
   }
