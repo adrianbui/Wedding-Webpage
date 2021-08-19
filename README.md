@@ -1,6 +1,6 @@
 # Our Wedding Website
 A beautiful, feature rich, device friendly wedding website. 
-Check out at abigail-adrian.site 
+Check out at [abigail-adrian.site](https://abigail-adrian.site)
 
 
 # Highlights
