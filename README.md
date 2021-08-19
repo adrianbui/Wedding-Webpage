@@ -26,7 +26,8 @@ Check out at [abigail-adrian.site](https://abigail-adrian.site)
 - Utilized Google Analytics 
 - Pipelined the inputs to Google Sheets to monitor RSVP information
 - Added additional input forms for RSVP section
-- Customized index.html, SASS, and js file accordingly to my need. 
+- Customized index.html, SASS, and js file accordingly to my need
+- Used MD5 encryption to enhance the security of my unique invite code
 - Hosted and registered the domain via GoDaddy, set up SSL Certification, and enabled HTTPS
 
 # About Me
