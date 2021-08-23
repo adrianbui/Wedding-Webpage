@@ -101,9 +101,6 @@
     <div class="down-arrow floating-arrow"><a href="#invitation"><i class="fa fa-angle-down"></i></a></div>
 </section>
 
-
-
-
 <section id="invitation" class="section-padding">
     <div class="container">
         <div class="row">
@@ -417,7 +414,7 @@
                 <form id="rsvp-form" class="rsvp-form"
                       action=""
                       method="POST">
-                    <div class="row">
+                    <div class="row">                    
                         <div class="col-md-6 col-sm-6">
                             <div class="form-input-group">
                                 <i class="fa fa-envelope"></i><input type="email" name="email" class=""
@@ -433,16 +430,16 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="row">
                         <div class="col-md-6 col-sm-6">
                             <div class="form-input-group">
                                 <i class="fa fa-users"></i><input type="number" name="extras" class="" min="0"
                                                                   max="4"
-                                                                  placeholder="# of people"
+                                                                  placeholder="Number of people"
                                                                   required>
                             </div>
                         </div>
-
                         <div class="col-md-6 col-sm-6">
                             <div class="form-input-group">
                                 <i class="fa fa-key"></i><input type="number" name="invite_code" id="invite_code"
@@ -451,7 +448,26 @@
                                                                 required>
                             </div>
                         </div>
-                        
+                    </div>
+
+                    <div class="row">                    
+                        <div class="col-md-12 col-sm-6">
+                            <div class="form-input-group">
+                                <i class="fa fa-question"></i><input name="ceremony" class=""
+                                                                     placeholder="Attending Ceremony? (Yes/No)"
+                                                                     required>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-sm-6">
+                            <div class="form-input-group">
+                                <i class="fa fa-question"></i><input name="reception" class=""
+                                                                 placeholder="Attending Reception? (Yes/No)"
+                                                                 required>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
                         <div class="col-md-12 col-sm-6">
                             <div class="form-input-group">
                                 <i class="fa fa-music"></i><input name="song" class=""
@@ -466,9 +482,9 @@
                                                                  placeholder="Comments (optional)"
                                                                  >
                             </div>
-                        </div>
-                        
+                        </div>                        
                     </div>
+
                     <div class="row">
                         <div class="col-md-12" id="alert-wrapper"></div>
                     </div>
